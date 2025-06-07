@@ -1,0 +1,72 @@
+
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: #111;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    padding: 3rem 1rem 1rem;
+}
+
+.logo-circle {
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav {
+    margin-top: 1rem;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 1rem 0;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.service-card {
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: left;
+}
+
+footer {
+    padding: 2rem;
+    background-color: #fafafa;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+img.hero {
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    display: block;
+}
