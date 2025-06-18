@@ -1,9 +1,8 @@
 [build]
-  publish = "public" # o altra cartella di pubblicazione
-  command = "npm run build"
+  publish = "."
 
 [[redirects]]
-  from = "https://cettydangelocopywriter.netlify.app/*"
+  from = "/*"
   to = "https://cdcomunicazione.com/:splat"
   status = 301
   force = true
