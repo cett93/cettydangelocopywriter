@@ -1,3 +1,9 @@
-
 [build]
   publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "https://cdcomunicazione.com/:splat"
+  status = 301
+  force = true
+  conditions = { Host = "cettydangelocopywriter.netlify.app" }
